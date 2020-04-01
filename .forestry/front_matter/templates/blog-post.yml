@@ -32,3 +32,5 @@ fields:
   config:
     required: false
   label: Menu
+pages:
+- content/post/test-page.md
