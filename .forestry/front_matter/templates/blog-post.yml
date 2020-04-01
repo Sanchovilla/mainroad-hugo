@@ -8,6 +8,27 @@ fields:
 - type: datetime
   name: date
   label: date
-- type: text
-  name: linktitle
-  label: linktitle
+- name: thumbnail
+  type: file
+  config:
+    maxSize: 250
+  label: Thumbnail
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Tags
+- name: categories
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Categories
+- name: menu
+  type: text
+  config:
+    required: false
+  label: Menu
